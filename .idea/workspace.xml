@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ea135d-39d0-4eca-a39a-59dca529f357" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/reset.css" afterPath="$PROJECT_DIR$/css/common/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/hna-button.css" afterPath="$PROJECT_DIR$/css/components/hna-button.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/module/hna-passwordDialog.css" afterPath="$PROJECT_DIR$/css/module/hna-passwordDialog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/module/hna-passwordDialog.js" afterPath="$PROJECT_DIR$/js/module/hna-passwordDialog.js" />
     </list>
     <ignored path="redPackage.iws" />
@@ -26,18 +22,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="hna-passwordDialog.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hna-passwordDialog.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/module/hna-passwordDialog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="364">
+              <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding>
-                <marker date="1481546415403" expanded="true" signature="728:1496" ph="..." />
-                <marker date="1481546415403" expanded="true" signature="789:1234" ph="..." />
-                <marker date="1481546415403" expanded="true" signature="846:942" ph="..." />
-                <marker date="1481546415403" expanded="true" signature="846:1047" ph="..." />
-                <marker date="1481546415403" expanded="true" signature="983:1011" ph="..." />
-                <marker date="1481546415403" expanded="true" signature="1285:1468" ph="..." />
+                <marker date="1481547629558" expanded="true" signature="728:1480" ph="..." />
+                <marker date="1481547629558" expanded="true" signature="789:1218" ph="..." />
+                <marker date="1481547629558" expanded="true" signature="846:926" ph="..." />
+                <marker date="1481547629558" expanded="true" signature="846:1031" ph="..." />
+                <marker date="1481547629558" expanded="true" signature="967:995" ph="..." />
+                <marker date="1481547629558" expanded="true" signature="1269:1452" ph="..." />
               </folding>
             </state>
           </provider>
@@ -53,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/common/reset.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
@@ -103,9 +99,9 @@
         <option value="$PROJECT_DIR$/js/common/config.js" />
         <option value="$PROJECT_DIR$/html/components/hna-passwordDialog.html" />
         <option value="$PROJECT_DIR$/css/components/hna-button.css" />
-        <option value="$PROJECT_DIR$/js/module/hna-passwordDialog.js" />
         <option value="$PROJECT_DIR$/css/module/hna-passwordDialog.css" />
         <option value="$PROJECT_DIR$/css/common/reset.css" />
+        <option value="$PROJECT_DIR$/js/module/hna-passwordDialog.js" />
       </list>
     </option>
   </component>
@@ -372,12 +368,12 @@
       <workItem from="1481180073991" duration="2964000" />
       <workItem from="1481423135816" duration="2952000" />
       <workItem from="1481506921400" duration="15253000" />
-      <workItem from="1481544631118" duration="2018000" />
+      <workItem from="1481544631118" duration="2607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23187000" />
+    <option name="totallyTimeSpent" value="23776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -435,12 +431,12 @@
         <state relative-caret-position="900">
           <caret line="36" column="128" lean-forward="false" selection-start-line="36" selection-start-column="128" selection-end-line="36" selection-end-column="128" />
           <folding>
-            <marker date="1481546415403" expanded="true" signature="728:1496" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="789:1234" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="846:942" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="846:1047" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="983:1011" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="1285:1468" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="728:1480" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="789:1218" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="846:926" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="846:1031" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="967:995" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="1269:1452" ph="..." />
           </folding>
         </state>
       </provider>
@@ -488,12 +484,12 @@
         <state relative-caret-position="25">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1481546415403" expanded="true" signature="728:1496" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="789:1234" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="846:942" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="846:1047" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="983:1011" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="1285:1468" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="728:1480" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="789:1218" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="846:926" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="846:1031" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="967:995" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="1269:1452" ph="..." />
           </folding>
         </state>
       </provider>
@@ -553,29 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/module/hna-passwordDialog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/module/hna-passwordDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <marker date="1481546415403" expanded="true" signature="728:1496" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="789:1234" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="846:942" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="846:1047" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="983:1011" ph="..." />
-            <marker date="1481546415403" expanded="true" signature="1285:1468" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/module/hna-passwordDialog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -589,6 +562,29 @@
         <state relative-caret-position="325">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module/hna-passwordDialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/module/hna-passwordDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding>
+            <marker date="1481547629558" expanded="true" signature="728:1480" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="789:1218" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="846:926" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="846:1031" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="967:995" ph="..." />
+            <marker date="1481547629558" expanded="true" signature="1269:1452" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -29,7 +29,7 @@ define(['Vue'],function (Vue) {
         template : '<div class="hna-passwordDialog">\
                         <div class="password-view-wrapper">\
                             <div class="password-view">\
-                                <div class="password-item pass-item-{{i}}" v-for="i in count" v-bind:style="{width:100/count + \'%\'}">{{codeArr[i-1] || ""}}</div>\
+                                <div class="password-item" v-for="i in count" v-bind:style="{width:100/count + \'%\'}">{{codeArr[i-1] || ""}}</div>\
                             </div>\
                             <label class="input-trigger"><input type="tel" v-bind:maxlength="count" v-bind:value="code" v-on:input="chargeInput"></label>\
                         </div>\
