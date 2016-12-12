@@ -28,8 +28,8 @@
     color: #fff;
 }
 /*按钮不可用状态*/
-.hna-button[disabled]{
-    background-color: #666;
+.hna-button.dis{
+    background-color: #666 !important;
 }
 
 /*整屏的大按钮*/

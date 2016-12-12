@@ -7,6 +7,7 @@ html,body{
     /*
     font-family:"Microsoft yahei","Microsoft yahei UI",arial,宋体;
     */
+    -webkit-tap-highlight-color:transparent;
 }
 div,p{
     padding:0;

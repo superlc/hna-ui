@@ -12,7 +12,8 @@ define(['Vue'],function (Vue) {
         },
         data : function () {
             return {
-                code : ''
+                code : '',
+                isActive : false
             }
         },
         computed :{
@@ -28,12 +29,12 @@ define(['Vue'],function (Vue) {
         template : '<div class="hna-passwordDialog">\
                         <div class="password-view-wrapper">\
                             <div class="password-view">\
-                                <div class="password-item pass-item-{{i}}" v-for="i in count">{{codeArr[i-1] || ""}}</div>\
+                                <div class="password-item pass-item-{{i}}" v-for="i in count" v-bind:style="{width:100/count + \'%\'}">{{codeArr[i-1] || ""}}</div>\
                             </div>\
                             <label class="input-trigger"><input type="tel" v-bind:maxlength="count" v-bind:value="code" v-on:input="chargeInput"></label>\
                         </div>\
                         <div class="btn-wrapper">\
-                            <button class="hna-button btn-large btn-strong" v-on:click="submit">确定</button>\
+                            <button class="hna-button btn-large btn-strong" v-bind:class="{dis : !isActive} " v-on:click.prevent="submit">确定</button>\
                         </div>\
                     </div>',
         methods : {
@@ -41,10 +42,19 @@ define(['Vue'],function (Vue) {
                 var _this = e.target || e.srcElement;
                 //判断输入的值是否整数
                 this.code = _this.value;
+                if(this.code.length >= this.count){
+                    this.isActive = true;
+                }else{
+                    this.isActive = false;
+                }
             },
-            submit : function () {
+            submit : function (e) {
+                var _this = e.target || e.srcElement;
                 var code = this.code;
-                console.log(code);
+                //按钮不可点击的状态直接不操作
+                if(_this.classList.contains('dis')){
+                    return;
+                }
                 //判断是否输出符合长度的密码、验证码
                 if(code.length < this.count){
                     console.log('请输入符合长度的数值');
@@ -65,7 +75,7 @@ define(['Vue'],function (Vue) {
             var dialog = new Vue({
                 el : '#testDialog',
                 data : {
-                    count : 4
+                    count : 6
                 }
             });
         }
