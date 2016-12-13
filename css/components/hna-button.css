@@ -29,7 +29,7 @@
 }
 /*按钮不可用状态*/
 .hna-button.dis{
-    background-color: #666 !important;
+    background-color: #ccc !important;
 }
 
 /*整屏的大按钮*/

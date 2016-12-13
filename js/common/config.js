@@ -2,8 +2,8 @@
  * Created by cluo on 2016/12/11.
  */
 require.config({
-    baseUrl: '/redPackage/js',
+    baseUrl: '/redPackage/',
     paths: {
-        Vue : 'common/vue.min'
+        Vue : 'js/common/vue.min'
     }
 });
