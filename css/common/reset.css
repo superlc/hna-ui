@@ -9,7 +9,7 @@ html,body{
     */
     -webkit-tap-highlight-color:transparent;
 }
-div,p{
+div,p,ul,ol,li,h1,h2,h3,h4{
     padding:0;
     margin:0;
 }

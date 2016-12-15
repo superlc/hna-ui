@@ -1,0 +1,30 @@
+.hna-toast{
+    position: fixed;
+    left:50%;
+    bottom: 65px;
+    max-width: 90%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+.hna-toast .toast-content{
+     color: #fff;
+     font-size:14px;
+     line-height:1.5;
+     padding: 5px 15px;
+ }
+
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+.slide-fade-enter-active {
+    transition: opacity .3s ease;
+}
+.slide-fade-leave-active {
+    transition: opacity .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-active {
+    opacity: 0;
+}
