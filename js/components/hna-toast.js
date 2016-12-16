@@ -5,42 +5,32 @@ define(function () {
     //注册组件
     return {
         name : 'hna-toast',
-        props : {
-            //toast的提示文本
-            content : {
-                type : String,
-                default : '提示',
-                required : true
-            },
-            duration : {
-                type : Number,
-                default : 2000
-            },
-            visible : {
-                type : Boolean,
-                default : false
-            }
+        data : function(){
+            return {
+                message : '',
+                duration : 3000,
+                visible : false,
+                timer : null
+            };
         },
         template : '<transition name="slide-fade">\
                         <div class="hna-toast" v-show="visible" >\
-                            <div class="toast-content">{{content}}</div>\
+                            <div class="toast-content">{{message}}</div>\
                         </div>\
                     </transition> ',
-        data : {
-            timer : null,
-            closed : true
-        },
         methods : {
-            show : function (message) {
+            startTimer : function() {
                 var _this = this;
-                _this.content = message;
-                _this.visible = true;
-
-                _this.timer = setTimeout(function () {
-                    _this.visible = false;
-                    clearTimeout(_this.timer);
-                },_this.duration);
+                if (_this.duration > 0) {
+                    _this.timer = setTimeout(function(){
+                        _this.visible = false;
+                        clearTimeout(_this.timer);
+                    },_this.duration);
+                }
             }
+        },
+        mounted : function () {
+            this.startTimer();
         }
     };
 });

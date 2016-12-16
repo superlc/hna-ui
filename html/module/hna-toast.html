@@ -10,13 +10,10 @@
     <script src="../../js/common/require.min.js"></script>
 </head>
 <body>
-    <div id="toast-hint">
-        <hna-toast ref="toast" v-bind:content="content" v-bind:visible="visible" v-bind:duration="duration"></hna-toast>
-    </div>
+    <div id="toast-hint"></div>
     <script>
         require(['../../js/common/config.js'],function () {
             require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-                tools.install('HnaToast',Vue);
 
                 //toast应用
                 var toastWrapper = new Vue({
@@ -27,9 +24,15 @@
                         duration : 3000,
                         //是否展示的开关
                         visible : false
+                    },
+                    methods : {
+                        show : function (msg) {
+                            //调用toast全局函数
+                            this.$Toast(msg);
+                        }
                     }
                 });
-                toastWrapper.$refs.toast.show('Hello');
+                toastWrapper.show('Hello');
 
             });
         });

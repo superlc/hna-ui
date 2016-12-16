@@ -2,8 +2,11 @@
  * Created by cluo on 2016/12/11.
  */
 require.config({
-    baseUrl: '/redPackage/',
+    baseUrl: '/HNA-ui/',
     paths: {
-        Vue : 'js/common/vue.min'
+        Vue : 'js/common/vue.min',
+        Toast : 'js/components/hna-toast',
+        ToastManager : 'js/components/hna-toast-manager',
+        PasswordDialog : 'js/components/hna-password'
     }
 });
