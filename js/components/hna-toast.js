@@ -30,14 +30,6 @@ define(function () {
             timer : null,
             closed : true
         },
-        watch : {
-            /*
-             visible : function (newValue,oldValue) {
-             var _this = this;
-             _this.show(_this.content);
-             }
-             */
-        },
         methods : {
             show : function (message) {
                 var _this = this;
