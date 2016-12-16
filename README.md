@@ -57,16 +57,9 @@ require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
 - （待扩展）支持吐司在页面的位置
 
 示例代码
-```html
-<div id="toast-hint">
-       <hna-toast ref="toast" v-bind:content="content" v-bind:visible="visible" v-bind:duration="duration"></hna-toast>
-</div>
-```
 ```javascript
 require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-        //安装相应的组件
-        tools.install('HnaToast',Vue);
-        //toast应用
+	//toast应用
 	var toastWrapper = new Vue({
 	    el : '#toast-hint',
 	    data : {
@@ -75,10 +68,16 @@ require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
 		duration : 3000,
 		//是否展示的开关
 		visible : false
+	    },
+	    methods : {
+		show : function (msg) {
+		    //调用toast全局函数
+		    this.$Toast(msg);
+		}
 	    }
 	});
-	toastWrapper.$refs.toast.show('Hello');
-    });
+	toastWrapper.show('Hello');
+});
 ```
 
 作者：前端C罗
