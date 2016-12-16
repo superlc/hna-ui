@@ -18,28 +18,17 @@ UI库使用相对比较容易，大概使用步骤如下
 - 支持自定义标题、按钮展示与否、
 - 支持自定义输入成功、失败的函数处理器
 
-###吐司组件
-- 支持自定义展示时长
-- 支持自定义显示与隐藏的动画
-- 支持自定义显示的文本
-- （待扩展）支持吐司在页面的位置
-
 示例代码
 ```html
 <div id="firstPassword">
         <hna-password-dialog v-bind:count="count" v-bind:title="title" v-bind:hasbutton="hasbutton" v-on:complete="completeCallback" v-on:error="errorCallback"></hna-password-dialog>
 </div>
-<div id="toast-hint">
-       <hna-toast ref="toast" v-bind:content="content" v-bind:visible="visible" v-bind:duration="duration"></hna-toast>
-</div>
 ```
 ```javascript
 require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
         //安装相应的组件
-        tools.install('HnaPasswordDialog',Vue);
-        tools.install('HnaToast',Vue);
-		
-		//挂载密码框的例子
+        tools.install('HnaPasswordDialog',Vue);	
+	//挂载密码框的例子
         new Vue({
             el : '#firstPassword',
             data : {
@@ -58,7 +47,25 @@ require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
                 }
             }
         });
+    });
+```
 
+###吐司组件
+- 支持自定义展示时长
+- 支持自定义显示与隐藏的动画
+- 支持自定义显示的文本
+- （待扩展）支持吐司在页面的位置
+
+示例代码
+```html
+<div id="toast-hint">
+       <hna-toast ref="toast" v-bind:content="content" v-bind:visible="visible" v-bind:duration="duration"></hna-toast>
+</div>
+```
+```javascript
+require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
+        //安装相应的组件
+        tools.install('HnaToast',Vue);
         //toast应用
 	var toastWrapper = new Vue({
 	    el : '#toast-hint',
@@ -71,11 +78,11 @@ require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
 	    }
 	});
 	toastWrapper.$refs.toast.show('Hello');
-
     });
 ```
 
 作者：前端C罗
+
 邮箱：470716775@qq.com
 
 
