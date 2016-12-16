@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d6ea135d-39d0-4eca-a39a-59dca529f357" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common/reset.css" afterPath="$PROJECT_DIR$/css/common/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/hna-button.css" afterPath="$PROJECT_DIR$/css/components/hna-button.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/password.css" afterPath="$PROJECT_DIR$/css/password.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/module/setting-password.html" afterPath="$PROJECT_DIR$/html/module/setting-password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/components/hna-toast.js" afterPath="$PROJECT_DIR$/js/components/hna-toast.js" />
     </list>
     <ignored path="redPackage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,17 +24,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="setting-password.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="setting-password.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/module/setting-password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="329">
+              <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hna-tools.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hna-tools.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/hna-tools.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -59,14 +57,15 @@
       <file leaf-file-name="hna-toast.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/components/hna-toast.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="75">
+              <caret line="53" column="3" lean-forward="false" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
               <folding>
-                <marker date="1481811773160" expanded="true" signature="556:582" ph="..." />
-                <marker date="1481811773160" expanded="true" signature="556:764" ph="..." />
-                <marker date="1481811773160" expanded="true" signature="622:654" ph="..." />
-                <marker date="1481811773160" expanded="true" signature="622:729" ph="..." />
-                <marker date="1481811773160" expanded="true" signature="623:654" ph="..." />
+                <element signature="e#61#1435#0" expanded="false" />
+                <marker date="1481857058204" expanded="true" signature="556:582" ph="..." />
+                <marker date="1481857058204" expanded="true" signature="556:764" ph="..." />
+                <marker date="1481857058204" expanded="true" signature="622:654" ph="..." />
+                <marker date="1481857058204" expanded="true" signature="622:729" ph="..." />
+                <marker date="1481857058204" expanded="true" signature="623:654" ph="..." />
               </folding>
             </state>
           </provider>
@@ -159,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,8 +274,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,33 +366,34 @@
       <workItem from="1481679422190" duration="13814000" />
       <workItem from="1481766366664" duration="18084000" />
       <workItem from="1481806861391" duration="4842000" />
-      <workItem from="1481812107444" duration="100000" />
+      <workItem from="1481812107444" duration="1379000" />
+      <workItem from="1481857050076" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67466000" />
+    <option name="totallyTimeSpent" value="68817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24348378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24284807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -648,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,32 +659,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/hna-tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/components/hna-toast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="75">
+          <caret line="53" column="3" lean-forward="false" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
           <folding>
-            <marker date="1481811773160" expanded="true" signature="556:582" ph="..." />
-            <marker date="1481811773160" expanded="true" signature="556:764" ph="..." />
-            <marker date="1481811773160" expanded="true" signature="622:654" ph="..." />
-            <marker date="1481811773160" expanded="true" signature="622:729" ph="..." />
-            <marker date="1481811773160" expanded="true" signature="623:654" ph="..." />
+            <element signature="e#61#1435#0" expanded="false" />
+            <marker date="1481857058204" expanded="true" signature="556:582" ph="..." />
+            <marker date="1481857058204" expanded="true" signature="556:764" ph="..." />
+            <marker date="1481857058204" expanded="true" signature="622:654" ph="..." />
+            <marker date="1481857058204" expanded="true" signature="622:729" ph="..." />
+            <marker date="1481857058204" expanded="true" signature="623:654" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/module/setting-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/hna-tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="329">
+          <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
           <folding />
         </state>
       </provider>

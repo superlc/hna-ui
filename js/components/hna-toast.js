@@ -31,15 +31,19 @@ define(function () {
             closed : true
         },
         watch : {
-            visible : function (newValue,oldValue) {
-                var _this = this;
-                _this.show(_this.content);
-            }
+            /*
+             visible : function (newValue,oldValue) {
+             var _this = this;
+             _this.show(_this.content);
+             }
+             */
         },
         methods : {
             show : function (message) {
                 var _this = this;
                 _this.content = message;
+                _this.visible = true;
+
                 _this.timer = setTimeout(function () {
                     _this.visible = false;
                     clearTimeout(_this.timer);
