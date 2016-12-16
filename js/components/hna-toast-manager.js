@@ -9,6 +9,7 @@ define(['Vue','Toast'],function (Vue,ToastComponent) {
     var ToastConstructor = Vue.extend(ToastComponent);
 
     var Toast = function(options) {
+        //toast的文本数据
         options = options || {};
         if (typeof options === 'string') {
             options = {
@@ -16,6 +17,7 @@ define(['Vue','Toast'],function (Vue,ToastComponent) {
             };
         }
         var userOnClose = options.onClose;
+
         var id = 'toast_' + seed++;
 
         options.onClose = function() {
@@ -38,6 +40,7 @@ define(['Vue','Toast'],function (Vue,ToastComponent) {
     };
 
     Toast.close = function(id, userOnClose) {
+        console.log(id,userOnClose);
         for (var i = 0, len = instances.length; i < len; i++) {
             if (id === instances[i].id) {
                 if (typeof userOnClose === 'function') {

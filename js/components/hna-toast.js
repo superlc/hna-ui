@@ -10,7 +10,9 @@ define(function () {
                 message : '',
                 duration : 3000,
                 visible : false,
-                timer : null
+                timer : null,
+                closed : false,
+                onClose: null
             };
         },
         template : '<transition name="slide-fade">\
@@ -18,12 +20,34 @@ define(function () {
                             <div class="toast-content">{{message}}</div>\
                         </div>\
                     </transition> ',
+        watch: {
+            closed : function(newVal) {
+                if (newVal) {
+                    this.visible = false;
+                    this.$el.addEventListener('transitionend', this.destroyElement);
+                }
+            }
+        },
         methods : {
+            destroyElement : function() {
+                this.$el.removeEventListener('transitionend', this.destroyElement);
+                this.$destroy(true);
+                this.$el.parentNode.removeChild(this.$el);
+            },
+            close : function() {
+                this.closed = true;
+                if (typeof this.onClose === 'function') {
+                    this.onClose(this);
+                }
+            },
             startTimer : function() {
                 var _this = this;
                 if (_this.duration > 0) {
                     _this.timer = setTimeout(function(){
                         _this.visible = false;
+                        if (!_this.closed) {
+                            _this.close();
+                        }
                         clearTimeout(_this.timer);
                     },_this.duration);
                 }
