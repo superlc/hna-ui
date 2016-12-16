@@ -25,8 +25,16 @@ UI库使用相对比较容易，大概使用步骤如下
 - （待扩展）支持吐司在页面的位置
 
 示例代码
-
-    require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
+```html
+<div id="firstPassword">
+        <hna-password-dialog v-bind:count="count" v-bind:title="title" v-bind:hasbutton="hasbutton" v-on:complete="completeCallback" v-on:error="errorCallback"></hna-password-dialog>
+</div>
+<div id="toast-hint">
+       <hna-toast ref="toast" v-bind:content="content" v-bind:visible="visible" v-bind:duration="duration"></hna-toast>
+</div>
+```
+```javascript
+require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
         //安装相应的组件
         tools.install('HnaPasswordDialog',Vue);
         tools.install('HnaToast',Vue);
@@ -51,27 +59,21 @@ UI库使用相对比较容易，大概使用步骤如下
             }
         });
 
-        //挂载吐司的例子
-        var toastWrapper = new Vue({
-            el : '#toast-hint',
-            data : {
-                content : '提示信息',
-                //显示的时长
-                duration : 3000,
-                //是否展示的开关
-                visible : false
-            },
-            methods : {
-                show : function (msg) {
-                    this.content = msg;
-                    this.visible = true;
-                }
-            }
-        });
-        toastWrapper.show('Hello');
+        //toast应用
+	var toastWrapper = new Vue({
+	    el : '#toast-hint',
+	    data : {
+		content : '提示信息',
+		//显示的时长
+		duration : 3000,
+		//是否展示的开关
+		visible : false
+	    }
+	});
+	toastWrapper.$refs.toast.show('Hello');
 
     });
-
+```
 
 作者：前端C罗
 邮箱：470716775@qq.com
