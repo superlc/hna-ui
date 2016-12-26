@@ -80,6 +80,48 @@ require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
 });
 ```
 
+###状态提示
+- 支持自定义成功、失败、加载中、提示等状态扩展
+- 支持自定义显示与隐藏的动画
+- 支持自定义显示的文本
+
+示例代码
+```html
+<div class="status-wrapper">
+	<hna-alert v-bind:type="type" v-bind:visible="visible" v-bind:text="text"></hna-alert>
+</div>
+```
+
+```javascript
+require(['../../js/common/config.js'],function () {
+	require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
+	    var alert = new Vue({
+		el : '.status-wrapper',
+		data : {
+		    visible : false,
+		    type : '',
+		    text : ''
+		},
+		methods : {
+		    show : function (type,text) {
+			this.visible = true;
+			this.type = type;
+			this.text = text;
+		    },
+		    hide : function () {
+			this.visible = false;
+		    }
+		}
+	    });
+	    alert.show('success','我是提示');
+
+	    setTimeout(function () {
+		alert.hide();
+	    },3000);
+	});
+});
+```
+
 作者：前端C罗
 
 邮箱：470716775@qq.com
