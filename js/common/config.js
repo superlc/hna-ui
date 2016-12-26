@@ -7,6 +7,7 @@ require.config({
         Vue : 'js/common/vue.min',
         Toast : 'js/components/hna-toast',
         ToastManager : 'js/components/hna-toast-manager',
-        PasswordDialog : 'js/components/hna-password'
+        PasswordDialog : 'js/components/hna-password',
+        Alert : 'js/components/hna-alert'
     }
 });

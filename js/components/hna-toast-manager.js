@@ -40,7 +40,6 @@ define(['Vue','Toast'],function (Vue,ToastComponent) {
     };
 
     Toast.close = function(id, userOnClose) {
-        console.log(id,userOnClose);
         for (var i = 0, len = instances.length; i < len; i++) {
             if (id === instances[i].id) {
                 if (typeof userOnClose === 'function') {

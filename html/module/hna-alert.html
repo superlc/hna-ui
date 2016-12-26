@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale = 1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>alert提示</title>
+    <link rel="stylesheet" href="../../css/hna-ui.css">
+    <script src="../../js/common/require.min.js"></script>
+</head>
+<body>
+    <!--
+    <div class="hna-alert">
+        <div class="alert-main">
+            <i class="ico-alert loading"></i>
+            <p class="alert-tip">我是文案提示我是文案提示我是文案提示</p>
+        </div>
+    </div>
+    -->
+    <div class="status-wrapper">
+        <hna-alert v-bind:type="type" v-bind:visible="visible" v-bind:text="text"></hna-alert>
+    </div>
+
+<script>
+    require(['../../js/common/config.js'],function () {
+        require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
+            var alert = new Vue({
+                el : '.status-wrapper',
+                data : {
+                    visible : false,
+                    type : '',
+                    text : ''
+                },
+                methods : {
+                    show : function (type,text) {
+                        this.visible = true;
+                        this.type = type;
+                        this.text = text;
+                    },
+                    hide : function () {
+                        this.visible = false;
+                    }
+                }
+            });
+            alert.show('success','我是提示');
+
+            setTimeout(function () {
+                alert.hide();
+            },3000);
+        });
+    });
+</script>
+</body>
+</html>
