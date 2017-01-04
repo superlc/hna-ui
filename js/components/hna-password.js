@@ -28,6 +28,7 @@ define(function () {
         data : function () {
                 return {
                     code : '',
+                    numberVisible : true,
                     //按钮是否可点击
                     isActive : false
                 }
@@ -45,16 +46,68 @@ define(function () {
         template : '<div class="hna-passwordDialog">\
                         <p class="hna-password-title">{{title}}</p>\
                         <div class="password-view-wrapper">\
-                            <div class="password-view">\
+                            <div class="password-view" v-on:click.capture.stop="changeNumbersStatus">\
                                 <div class="password-item" v-bind:class="{dot : codeArr[i-1]}" v-for="i in count" v-bind:style="{width:100/count + \'%\'}"></div>\
                             </div>\
-                            <label class="input-trigger"><input type="tel" v-bind:maxlength="count" v-bind:value="code" v-on:input="chargeInput"></label>\
                         </div>\
                         <div class="btn-wrapper" v-if="hasbutton">\
                             <button class="hna-button btn-large btn-strong" v-bind:class="{dis : !isActive} " v-on:click.prevent="submit">确定</button>\
                         </div>\
+                        <transition name="slide-down">\
+                        <div class="hna-password-numbers" v-show="numberVisible">\
+                            <div class="hna-numbers">\
+                                <div class="hna-virtual-number hna-item-number" data-number="1" v-on:click.capture.stop="inputNumber">\
+                                    <span>1</span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-item-number" data-number="2" v-on:click.capture.stop="inputNumber">\
+                                    <span>2</span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-item-number" data-number="3" v-on:click.capture.stop="inputNumber">\
+                                    <span>3</span>\
+                                </div>\
+                            </div>\
+                            <div class="hna-numbers">\
+                                <div class="hna-virtual-number hna-item-number" data-number="4" v-on:click.capture.stop="inputNumber">\
+                                    <span>4</span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-item-number" data-number="5" v-on:click.capture.stop="inputNumber">\
+                                    <span>5</span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-item-number" data-number="6" v-on:click.capture.stop="inputNumber">\
+                                    <span>6</span>\
+                                </div>\
+                            </div>\
+                            <div class="hna-numbers">\
+                                <div class="hna-virtual-number hna-item-number" data-number="7" v-on:click.capture.stop="inputNumber">\
+                                    <span>7</span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-item-number" data-number="8" v-on:click.capture.stop="inputNumber">\
+                                    <span>8</span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-item-number" data-number="9" v-on:click.capture.stop="inputNumber">\
+                                    <span>9</span>\
+                                </div>\
+                            </div>\
+                            <div class="hna-numbers">\
+                                <div class="hna-virtual-number hna-op hna-op-empty">\
+                                    <span></span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-item-number" data-number="0" v-on:click.capture.stop="inputNumber">\
+                                    <span>0</span>\
+                                </div>\
+                                <div class="hna-virtual-number hna-op hna-op-del" v-on:click.capture.stop="delNumber">\
+                                    <span class="ico-del"></span>\
+                                </div>\
+                            </div>\
+                        </div>\
+                        </transition>\
                     </div>',
         methods : {
+            changeNumbersStatus : function (e) {
+                //更改密码框显示、隐藏的
+                this.numberVisible = !this.numberVisible;
+                console.log(this.numberVisible);
+            },
             chargeInput : function (e) {
                 var _this = e.target || e.srcElement;
                 //判断输入的值是否整数
@@ -90,6 +143,28 @@ define(function () {
                 }else{
                     this.$emit('error',code);
                 }
+            },
+            inputNumber : function (e) {
+                var item = e.currentTarget;
+                var number = item.dataset.number;
+                if(this.code.length < this.count - 1){
+                    this.code += number;
+                }else if(this.code.length == this.count -1){
+                    this.code += number;
+                    this.isActive = true;
+                    if(!this.hasbutton){
+                        this.validCode(this.code);
+                    }
+                }else{
+                    return;
+                }
+            },
+            delNumber : function (e) {
+                var oldCode = this.code;
+                if(oldCode.length <= 0){
+                    return;
+                }
+                this.code = oldCode.substring(0,oldCode.length - 1);
             }
         }
     }

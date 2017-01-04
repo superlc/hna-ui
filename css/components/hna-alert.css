@@ -23,6 +23,7 @@
     margin-left:auto;
     margin-right:auto;
     margin-bottom:15px;
+    background-color: transparent;
 }
 .hna-alert .ico-alert.loading{
     background-image: url(../../img/components/loading.gif);

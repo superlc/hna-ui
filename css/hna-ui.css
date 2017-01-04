@@ -2,3 +2,28 @@
 @import "components/hna-toast.css";
 @import "module/hna-passwordDialog.css";
 @import "components/hna-alert.css";
+
+/* 可以设置不同的进入和离开动画 */
+/* 设置toast持续时间和动画函数 */
+.slide-fade-enter-active {
+    transition: opacity .3s ease;
+}
+.slide-fade-leave-active {
+    transition: opacity .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-active {
+    opacity: 0;
+}
+
+/*设置密码数字输入框的动画函数*/
+/* 设置toast持续时间和动画函数 */
+.slide-down-enter-active {
+    transition: transform .3s  cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-down-leave-active {
+    transition: transform .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-down-enter, .slide-down-leave-active {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
