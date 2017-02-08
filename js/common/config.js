@@ -8,6 +8,7 @@ require.config({
         Toast : 'js/components/hna-toast',
         ToastManager : 'js/components/hna-toast-manager',
         PasswordDialog : 'js/components/hna-password',
-        Alert : 'js/components/hna-alert'
+        Alert : 'js/components/hna-alert',
+        Telephone : 'js/components/hna-input-telephone'
     }
 });

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ea135d-39d0-4eca-a39a-59dca529f357" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/module/hna-passwordDialog.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/hna-alert.css" afterPath="$PROJECT_DIR$/css/components/hna-alert.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/hna-toast.css" afterPath="$PROJECT_DIR$/css/components/hna-toast.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hna-ui.css" afterPath="$PROJECT_DIR$/css/hna-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/module/hna-passwordDialog.css" afterPath="$PROJECT_DIR$/css/module/hna-passwordDialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/module/hna-password.html" afterPath="$PROJECT_DIR$/html/module/hna-password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/components/hna-password.js" afterPath="$PROJECT_DIR$/js/components/hna-password.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/config.js" afterPath="$PROJECT_DIR$/js/common/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hna-tools.js" afterPath="$PROJECT_DIR$/js/hna-tools.js" />
     </list>
     <ignored path="redPackage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="hna-tools.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/hna-tools.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hna-password.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hna-password.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/module/hna-password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="329">
+              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -51,10 +39,14 @@
       <file leaf-file-name="hna-password.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/components/hna-password.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="168" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="168" selection-end-column="9" />
               <folding>
-                <marker date="1483511643524" expanded="true" signature="1226:1967" ph="..." />
+                <element signature="e#181#620#0" expanded="false" />
+                <element signature="e#649#847#0" expanded="false" />
+                <element signature="e#867#1173#0" expanded="false" />
+                <element signature="e#5249#7533#0" expanded="false" />
+                <marker date="1483511643524" expanded="false" signature="1226:1967" ph="..." />
                 <marker date="1483511643524" expanded="true" signature="1226:5160" ph="..." />
                 <marker date="1483511643524" expanded="true" signature="1226:5185" ph="..." />
                 <marker date="1483511643524" expanded="true" signature="1226:5198" ph="..." />
@@ -85,11 +77,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hna-toast.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/components/hna-toast.css">
+      <file leaf-file-name="hna-input-telephone.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/module/hna-input-telephone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="197">
+              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hna-input-telephone.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/components/hna-input-telephone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="54" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hna-input-telephone.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/components/hna-input-telephone.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -98,31 +112,9 @@
       <file leaf-file-name="hna-ui.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hna-ui.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="200">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hna-toast.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/components/hna-toast.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hna-passwordDialog.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/module/hna-passwordDialog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="120" column="26" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
-              <folding>
-                <element signature="e#2633#4920#2" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +125,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -155,6 +147,10 @@
       <find>Toast.close(id, userOnClose);</find>
       <find>console</find>
       <find>.hna-alert .ico-alert</find>
+      <find>slide</find>
+      <find>maxLength</find>
+      <find>hasSpace</find>
+      <find>inputNumber</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,16 +182,20 @@
         <option value="$PROJECT_DIR$/js/components/hna-toast.js" />
         <option value="$PROJECT_DIR$/html/module/hna-toast.html" />
         <option value="$PROJECT_DIR$/js/components/hna-toast-manager.js" />
-        <option value="$PROJECT_DIR$/js/hna-tools.js" />
-        <option value="$PROJECT_DIR$/js/common/config.js" />
         <option value="$PROJECT_DIR$/js/components/hna-alert.js" />
         <option value="$PROJECT_DIR$/html/module/hna-alert.html" />
         <option value="$PROJECT_DIR$/css/components/hna-alert.css" />
         <option value="$PROJECT_DIR$/css/module/hna-passwordDialog.css" />
         <option value="$PROJECT_DIR$/css/components/hna-toast.css" />
         <option value="$PROJECT_DIR$/js/components/hna-password.js" />
-        <option value="$PROJECT_DIR$/css/hna-ui.css" />
         <option value="$PROJECT_DIR$/html/module/hna-password.html" />
+        <option value="$PROJECT_DIR$/js/components/hna-input-phone.js" />
+        <option value="$PROJECT_DIR$/js/hna-tools.js" />
+        <option value="$PROJECT_DIR$/js/common/config.js" />
+        <option value="$PROJECT_DIR$/html/module/hna-input-telephone.html" />
+        <option value="$PROJECT_DIR$/js/components/hna-input-telephone.js" />
+        <option value="$PROJECT_DIR$/css/hna-ui.css" />
+        <option value="$PROJECT_DIR$/css/components/hna-input-telephone.css" />
       </list>
     </option>
   </component>
@@ -402,7 +402,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Work/Code/front-end/wx-recharge" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -502,18 +502,23 @@
       <workItem from="1482744028728" duration="782000" />
       <workItem from="1482833409703" duration="190000" />
       <workItem from="1483420440259" duration="4137000" />
-      <workItem from="1483509780551" duration="2174000" />
+      <workItem from="1483509780551" duration="2769000" />
+      <workItem from="1483695192298" duration="138000" />
+      <workItem from="1484200095312" duration="203000" />
+      <workItem from="1484272317162" duration="410000" />
+      <workItem from="1486460271433" duration="1591000" />
+      <workItem from="1486539986534" duration="2581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100764000" />
+    <option name="totallyTimeSpent" value="106282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23712651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23204069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -540,7 +545,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24793388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23204069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -560,28 +565,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/module/hna-passwordDialog.html" />
-    <entry file="file://$PROJECT_DIR$/html/components/hna-passwordDialog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/module/hna-passwordDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/components/hna-passwordDialog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -619,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/common/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/confirm-password.html" />
     <entry file="file://$PROJECT_DIR$/html/input-password.html" />
     <entry file="file://$PROJECT_DIR$/html/setting-password.html" />
@@ -646,13 +622,7 @@
     <entry file="file://$PROJECT_DIR$/html/module/confirm-password.html" />
     <entry file="file://$PROJECT_DIR$/html/module/hna-passwordDialog.html" />
     <entry file="file://$PROJECT_DIR$/html/receive.static.html" />
-    <entry file="file://$PROJECT_DIR$/js/module/hna-passwordDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/module/hna-passwordDialog.js" />
     <entry file="file://$PROJECT_DIR$/html/module/input-password.html" />
     <entry file="file://$PROJECT_DIR$/js/common/hna-tools.js" />
     <entry file="file://$PROJECT_DIR$/html/module/setting-password.html" />
@@ -661,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,20 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/hna-toast-manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/components/hna-alert.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -693,60 +648,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/hna-alert.js">
+    <entry file="file://$PROJECT_DIR$/css/components/hna-toast.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/hna-toast-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/hna-toast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <marker date="1481881560556" expanded="true" signature="426:634" ph="..." />
+            <marker date="1481881560556" expanded="true" signature="492:599" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/module/hna-alert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="1125">
+          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/hna-tools.js">
+    <entry file="file://$PROJECT_DIR$/js/components/hna-alert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="250">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="3" />
+          <folding>
+            <marker date="1482738564667" expanded="true" signature="1412:1864" ph="..." />
+            <marker date="1482738564667" expanded="true" signature="1478:1829" ph="..." />
+            <marker date="1482738564667" expanded="true" signature="1532:1797" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/module/hna-passwordDialog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="120" column="26" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+        <state relative-caret-position="125">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
-            <element signature="e#2633#4920#2" expanded="true" />
+            <element signature="e#2633#4920#2" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/hna-toast.js">
+    <entry file="file://$PROJECT_DIR$/html/module/hna-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/hna-toast.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="329">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/components/hna-password.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="168" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="168" selection-end-column="9" />
           <folding>
-            <marker date="1483511643524" expanded="true" signature="1226:1967" ph="..." />
+            <element signature="e#181#620#0" expanded="false" />
+            <element signature="e#649#847#0" expanded="false" />
+            <element signature="e#867#1173#0" expanded="false" />
+            <element signature="e#5249#7533#0" expanded="false" />
+            <marker date="1483511643524" expanded="false" signature="1226:1967" ph="..." />
             <marker date="1483511643524" expanded="true" signature="1226:5160" ph="..." />
             <marker date="1483511643524" expanded="true" signature="1226:5185" ph="..." />
             <marker date="1483511643524" expanded="true" signature="1226:5198" ph="..." />
@@ -776,18 +759,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hna-ui.css">
+    <entry file="file://$PROJECT_DIR$/js/components/hna-input-phone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="350">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/module/hna-password.html">
+    <entry file="file://$PROJECT_DIR$/js/hna-tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="200">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module/hna-input-telephone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/hna-input-telephone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hna-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/hna-input-telephone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>

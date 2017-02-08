@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale = 1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>手机号输入框</title>
+    <link rel="stylesheet" href="../../css/hna-ui.css">
+    <script src="../../js/common/require.min.js"></script>
+</head>
+<body>
+<!--
+<div class="hna-alert">
+    <div class="alert-main">
+        <i class="ico-alert loading"></i>
+        <p class="alert-tip">我是文案提示我是文案提示我是文案提示</p>
+    </div>
+</div>
+-->
+<div class="phone-wrapper">
+    <hna-input-telephone v-bind:has-space="hasSpace"></hna-input-telephone>
+</div>
+
+<script>
+    require(['../../js/common/config.js'],function () {
+        require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
+            var phone = new Vue({
+                el : '.phone-wrapper',
+                data : {
+                    hasSpace : true
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

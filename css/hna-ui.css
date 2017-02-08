@@ -2,6 +2,7 @@
 @import "components/hna-toast.css";
 @import "module/hna-passwordDialog.css";
 @import "components/hna-alert.css";
+@import "components/hna-input-telephone.css";
 
 /* 可以设置不同的进入和离开动画 */
 /* 设置toast持续时间和动画函数 */
