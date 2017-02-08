@@ -1,6 +1,6 @@
 # Hna-UI
 
-公司前端UI组件库
+前端UI组件库
 
 - 模块管理、加载：requirejs
 - 数据与视图渲染：Vuejs
@@ -120,6 +120,35 @@ require(['../../js/common/config.js'],function () {
 	    },3000);
 	});
 });
+```
+
+###手机号码输入框
+- 支持号码校验
+- 支持号码空格分隔
+
+示例代码
+```html
+
+<div class="phone-wrapper">
+    <hna-input-telephone v-bind:has-space="hasSpace"></hna-input-telephone>
+</div>
+
+```
+
+```javascript
+
+require(['../../js/common/config.js'],function () {
+        require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
+            var phone = new Vue({
+                el : '.phone-wrapper',
+                data : {
+		    //是否需要空格分隔的设置
+                    hasSpace : true
+                }
+            });
+        });
+    });
+
 ```
 
 作者：前端C罗
