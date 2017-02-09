@@ -1,9 +1,7 @@
 /**
  * Created by cluo on 2016/12/11.
  */
-define(function () {
-    //注册组件
-    return {
+export var ToastComponent = {
         name : 'hna-toast',
         data : function(){
             return {
@@ -57,4 +55,3 @@ define(function () {
             this.startTimer();
         }
     };
-});

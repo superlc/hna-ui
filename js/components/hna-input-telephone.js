@@ -5,8 +5,7 @@
  * 组件：hna-input-phone
  * 描述：电话号码
  * */
-define(function () {
-    return {
+export var HnaTelephone = {
         name : 'hna-input-telephone',
         props : {
             hasSpace : {
@@ -85,5 +84,4 @@ define(function () {
                 }
             }
         }
-    }
-});
+    };

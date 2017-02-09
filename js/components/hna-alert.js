@@ -5,8 +5,7 @@
  * 组件：hna-alert
  * 描述：用户操作状态的反馈
  * */
-define(function () {
-    return {
+ export var HnaAlert = {
         name : 'hna-alert',
         props : {
             //alert的类型
@@ -71,5 +70,4 @@ define(function () {
                 this.visible = true;
             }
         }
-    }
-});
+    };

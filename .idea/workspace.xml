@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ea135d-39d0-4eca-a39a-59dca529f357" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/module/hna-passwordDialog.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hna-ui.css" afterPath="$PROJECT_DIR$/css/hna-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/config.js" afterPath="$PROJECT_DIR$/js/common/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/module/hna-password.html" afterPath="$PROJECT_DIR$/html/module/hna-password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/components/hna-alert.js" afterPath="$PROJECT_DIR$/js/components/hna-alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/components/hna-input-telephone.js" afterPath="$PROJECT_DIR$/js/components/hna-input-telephone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/components/hna-password.js" afterPath="$PROJECT_DIR$/js/components/hna-password.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/components/hna-toast-manager.js" afterPath="$PROJECT_DIR$/js/components/hna-toast-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/components/hna-toast.js" afterPath="$PROJECT_DIR$/js/components/hna-toast.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hna-tools.js" afterPath="$PROJECT_DIR$/js/hna-tools.js" />
     </list>
     <ignored path="redPackage.iws" />
@@ -26,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="hna-password.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hna-password.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/module/hna-password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="350">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -39,40 +42,9 @@
       <file leaf-file-name="hna-password.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/components/hna-password.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="168" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="168" selection-end-column="9" />
-              <folding>
-                <element signature="e#181#620#0" expanded="false" />
-                <element signature="e#649#847#0" expanded="false" />
-                <element signature="e#867#1173#0" expanded="false" />
-                <element signature="e#5249#7533#0" expanded="false" />
-                <marker date="1483511643524" expanded="false" signature="1226:1967" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="1226:5160" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="1226:5185" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="1226:5198" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="1226:5227" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="1356:1690" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="1459:1658" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="1758:1941" ph="..." />
-                <marker date="1483511643524" expanded="false" signature="2080:5159" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="2080:5160" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="2135:2855" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="2271:2363" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="2499:2591" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="2727:2819" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="2910:3630" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="3046:3138" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="3274:3366" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="3502:3594" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="3685:4405" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="3821:3913" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="4049:4141" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="4277:4369" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="4460:5128" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="4546:4637" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="4773:4865" ph="..." />
-                <marker date="1483511643524" expanded="true" signature="4985:5092" ph="..." />
-              </folding>
+            <state relative-caret-position="4125">
+              <caret line="167" column="9" lean-forward="false" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,8 +52,8 @@
       <file leaf-file-name="hna-input-telephone.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/module/hna-input-telephone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="147">
+              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -90,8 +62,8 @@
       <file leaf-file-name="hna-input-telephone.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/components/hna-input-telephone.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="54" />
+            <state relative-caret-position="800">
+              <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -99,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hna-input-telephone.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hna-input-telephone.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/components/hna-input-telephone.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -113,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/css/hna-ui.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -205,6 +177,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -229,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -398,11 +372,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Work/Code/front-end/wx-recharge" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -507,33 +482,34 @@
       <workItem from="1484200095312" duration="203000" />
       <workItem from="1484272317162" duration="410000" />
       <workItem from="1486460271433" duration="1591000" />
-      <workItem from="1486539986534" duration="2581000" />
+      <workItem from="1486539986534" duration="3641000" />
+      <workItem from="1486620539139" duration="432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106282000" />
+    <option name="totallyTimeSpent" value="107774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23204069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23140496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -659,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,10 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <marker date="1481881560556" expanded="true" signature="426:634" ph="..." />
-            <marker date="1481881560556" expanded="true" signature="492:599" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,11 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="3" />
-          <folding>
-            <marker date="1482738564667" expanded="true" signature="1412:1864" ph="..." />
-            <marker date="1482738564667" expanded="true" signature="1478:1829" ph="..." />
-            <marker date="1482738564667" expanded="true" signature="1532:1797" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,72 +670,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#2633#4920#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/module/hna-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/components/hna-password.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="168" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="168" selection-end-column="9" />
-          <folding>
-            <element signature="e#181#620#0" expanded="false" />
-            <element signature="e#649#847#0" expanded="false" />
-            <element signature="e#867#1173#0" expanded="false" />
-            <element signature="e#5249#7533#0" expanded="false" />
-            <marker date="1483511643524" expanded="false" signature="1226:1967" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="1226:5160" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="1226:5185" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="1226:5198" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="1226:5227" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="1356:1690" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="1459:1658" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="1758:1941" ph="..." />
-            <marker date="1483511643524" expanded="false" signature="2080:5159" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="2080:5160" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="2135:2855" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="2271:2363" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="2499:2591" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="2727:2819" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="2910:3630" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="3046:3138" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="3274:3366" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="3502:3594" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="3685:4405" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="3821:3913" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="4049:4141" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="4277:4369" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="4460:5128" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="4546:4637" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="4773:4865" ph="..." />
-            <marker date="1483511643524" expanded="true" signature="4985:5092" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/hna-input-phone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="4125">
+          <caret line="167" column="9" lean-forward="false" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/hna-input-phone.js" />
     <entry file="file://$PROJECT_DIR$/js/hna-tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,22 +693,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/module/hna-input-telephone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/components/hna-input-telephone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="800">
+          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -804,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/css/hna-ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -813,6 +718,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module/hna-input-telephone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/module/hna-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding />
         </state>
       </provider>

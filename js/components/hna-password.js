@@ -5,8 +5,7 @@
  * 组件：hna-password-dialog
  * 描述：用户输入密码场景
  * */
-define(function () {
-    return {
+export var HnaPasswordDialog = {
         name : 'hna-password-dialog',
         props : {
                 //标题
@@ -167,5 +166,4 @@ define(function () {
                 this.code = oldCode.substring(0,oldCode.length - 1);
             }
         }
-    }
-});
+    };
