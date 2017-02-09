@@ -25,29 +25,27 @@ UI库使用相对比较容易，大概使用步骤如下
 </div>
 ```
 ```javascript
-require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-        //安装相应的组件
-        tools.install('HnaPasswordDialog',Vue);	
-	//挂载密码框的例子
-        new Vue({
-            el : '#firstPassword',
-            data : {
-                count : 6,
-                hasbutton : true,
-                title : '请设置支付密码'
-            },
-            methods : {
-                //输入合法的值的回调
-                completeCallback : function (code) {
-                    console.log(code);
-                },
-                //输入非法的值的回调
-                errorCallback : function () {
 
-                }
-            }
-        });
-    });
+import {HnaVue as Vue} from './hna-tools'
+new Vue({
+    el : '#firstPassword',
+    data : {
+        count : 6,
+        hasbutton : false,
+        title : '请设置支付密码'
+    },
+    methods : {
+        //输入合法的值的回调
+        completeCallback : function (code) {
+            console.log(code);
+        },
+        //输入非法的值的回调
+        errorCallback : function () {
+
+        }
+    }
+});
+
 ```
 
 ###吐司组件
@@ -58,26 +56,27 @@ require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
 
 示例代码
 ```javascript
-require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-	//toast应用
-	var toastWrapper = new Vue({
-	    el : '#toast-hint',
-	    data : {
-		content : '提示信息',
-		//显示的时长
-		duration : 3000,
-		//是否展示的开关
-		visible : false
-	    },
-	    methods : {
-		show : function (msg) {
-		    //调用toast全局函数
-		    this.$Toast(msg);
-		}
-	    }
-	});
-	toastWrapper.show('Hello');
+
+import {HnaVue as Vue} from './hna-tools'
+//toast应用
+var toastWrapper = new Vue({
+    el : '#toast-hint',
+    data : {
+        content : '提示信息',
+        //显示的时长
+        duration : 3000,
+        //是否展示的开关
+        visible : false
+    },
+    methods : {
+        show : function (msg) {
+            //调用toast全局函数
+            this.$Toast(msg);
+        }
+    }
 });
+toastWrapper.show('Hello');
+
 ```
 
 ###状态提示
@@ -93,33 +92,32 @@ require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
 ```
 
 ```javascript
-require(['../../js/common/config.js'],function () {
-	require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-	    var alert = new Vue({
-		el : '.status-wrapper',
-		data : {
-		    visible : false,
-		    type : '',
-		    text : ''
-		},
-		methods : {
-		    show : function (type,text) {
-			this.visible = true;
-			this.type = type;
-			this.text = text;
-		    },
-		    hide : function () {
-			this.visible = false;
-		    }
-		}
-	    });
-	    alert.show('success','我是提示');
 
-	    setTimeout(function () {
-		alert.hide();
-	    },3000);
-	});
+import {HnaVue as Vue} from './hna-tools';
+var alert = new Vue({
+    el : '.status-wrapper',
+    data : {
+        visible : false,
+        type : '',
+        text : ''
+    },
+    methods : {
+        show : function (type,text) {
+            this.visible = true;
+            this.type = type;
+            this.text = text;
+        },
+        hide : function () {
+            this.visible = false;
+        }
+    }
 });
+alert.show('success','我是提示');
+
+setTimeout(function () {
+    alert.hide();
+},3000);
+
 ```
 
 ###手机号码输入框
@@ -137,17 +135,14 @@ require(['../../js/common/config.js'],function () {
 
 ```javascript
 
-require(['../../js/common/config.js'],function () {
-        require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-            var phone = new Vue({
-                el : '.phone-wrapper',
-                data : {
-		    //是否需要空格分隔的设置
-                    hasSpace : true
-                }
-            });
-        });
-    });
+import {HnaVue as Vue} from './hna-tools'
+var phone = new Vue({
+    el : '.phone-wrapper',
+    data : {
+        //是否需要空格分隔的设置
+        hasSpace : true
+    }
+});
 
 ```
 

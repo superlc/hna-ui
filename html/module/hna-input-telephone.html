@@ -22,17 +22,6 @@
     <hna-input-telephone v-bind:has-space="hasSpace"></hna-input-telephone>
 </div>
 
-<script>
-    require(['../../js/common/config.js'],function () {
-        require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-            var phone = new Vue({
-                el : '.phone-wrapper',
-                data : {
-                    hasSpace : true
-                }
-            });
-        });
-    });
-</script>
+<script src="../../dist/test-hna-telephone.js"></script>
 </body>
 </html>

@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -8729,7 +8729,10 @@ module.exports = g;
 
 
 /***/ }),
-/* 8 */
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8741,24 +8744,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-new __WEBPACK_IMPORTED_MODULE_0__hna_tools__["a" /* HnaVue */]({
-    el : '#firstPassword',
+//toast应用
+var toastWrapper = new __WEBPACK_IMPORTED_MODULE_0__hna_tools__["a" /* HnaVue */]({
+    el : '#toast-hint',
     data : {
-        count : 6,
-        hasbutton : false,
-        title : '请设置支付密码'
+        content : '提示信息',
+        //显示的时长
+        duration : 3000,
+        //是否展示的开关
+        visible : false
     },
     methods : {
-        //输入合法的值的回调
-        completeCallback : function (code) {
-            console.log(code);
-        },
-        //输入非法的值的回调
-        errorCallback : function () {
-
+        show : function (msg) {
+            //调用toast全局函数
+            this.$Toast(msg);
         }
     }
 });
+toastWrapper.show('Hello');
 
 /***/ })
 /******/ ]);

@@ -1,9 +1,14 @@
 var path = require('path');
 
 module.exports = {
-    entry: './js/test-hna-password.js',
+    entry: {
+        'test-hna-password' : './js/test-hna-password.js',
+        'test-hna-alert' : './js/test-hna-alert.js',
+        'test-hna-telephone' : './js/test-hna-telephone.js',
+        'test-hna-toast' : './js/test-hna-toast.js'
+    },
     output: {
-        filename: 'bundle.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist')
     }
 };

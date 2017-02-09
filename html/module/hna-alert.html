@@ -22,34 +22,6 @@
         <hna-alert v-bind:type="type" v-bind:visible="visible" v-bind:text="text"></hna-alert>
     </div>
 
-<script>
-    require(['../../js/common/config.js'],function () {
-        require(['../../js/hna-tools.js','Vue'],function (tools,Vue) {
-            var alert = new Vue({
-                el : '.status-wrapper',
-                data : {
-                    visible : false,
-                    type : '',
-                    text : ''
-                },
-                methods : {
-                    show : function (type,text) {
-                        this.visible = true;
-                        this.type = type;
-                        this.text = text;
-                    },
-                    hide : function () {
-                        this.visible = false;
-                    }
-                }
-            });
-            alert.show('success','我是提示');
-
-            setTimeout(function () {
-                alert.hide();
-            },3000);
-        });
-    });
-</script>
+    <script src="../../dist/test-hna-alert.js"></script>
 </body>
 </html>
