@@ -2,7 +2,7 @@
 
 前端UI组件库
 
-- 模块管理、加载：requirejs
+- 模块管理、加载：ES6 Module、webpack打包
 - 数据与视图渲染：Vuejs
 
 ##UI库组件介绍介绍
